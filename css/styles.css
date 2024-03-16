@@ -591,3 +591,59 @@ text-align: center;
   color: #f4f4fd;
   display: inline-block; 
 }
+
+.forma{
+
+}
+
+.subscribe {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 16px;
+}
+.form {
+  display: flex;
+}
+
+.label-footer{
+  gap: 24px;
+}
+.input-footer {
+border: 1px solid #fff;
+border-radius: 4px;
+width: 264px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+ font-weight: 400;
+font-size: 12px;
+line-height: 200%;
+letter-spacing: 0.04em;
+color: #fff;
+background: #2e2f42;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+.botton-footer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+
+color: #fff;
+ border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background: #4d5ae5;
+margin-left: 24px;
+}
