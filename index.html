@@ -521,6 +521,7 @@
             <div class="icon-input">
               <input  
               id="user-name"
+              name="user-name"
               class="input-forma" 
               type="text" 
               placeholder="Name">
@@ -580,29 +581,40 @@
             </div>
           </div>
 
-          <div class="data-client">
+          <div class="client-coment">
             <label 
             class="name-forma" 
-            for="user-name" 
+            for="user-comment" 
             name="Name">Comment           
             </label>
-
-            <div class="icon-input">
-              <input  
-              id="user-name"
-              class="input-forma" 
-              type="text" 
-              placeholder="Name" >
-              
-
-              
-            </div>
+            <textarea 
+            class="coments"
+            name="user-comment" 
+            id="user-comment" 
+            cols="30" 
+            rows="10"
+            placeholder="Text input">
+            </textarea>
           </div>
+            
 
-
-
-
-
+          <div class="user-privacy">
+              <input  
+                id="user-privacy"
+                class="checkbox" 
+                type="checkbox"
+                value="true"
+                name="user-privacy"
+                placeholder="Name" 
+                visually-hidden >
+              <label for="user-privacy" class="privaci-accept">
+                I accept the terms and conditions of the <span class="privacy-policy">Privacy Policy</span>
+              </label>               
+          </div>
+          
+          <button class="botton-modal-forma"  type="button">
+            Send            
+          </button>
 
         </form>
 
