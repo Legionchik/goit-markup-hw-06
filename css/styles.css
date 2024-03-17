@@ -592,9 +592,9 @@ text-align: center;
   display: inline-block; 
 }
 
-/* .forma{
+/* =====forma===== */
 
-} */
+/* .forma{} */
 
 .subscribe {
   font-weight: 500; 
@@ -610,9 +610,7 @@ text-align: center;
   gap: 24px;
 }
 
-/* .label-footer{
-
-} */
+/* .label-footer{} */
 
 .input-footer {
   border: 1px solid #fff;
@@ -659,4 +657,5 @@ text-align: center;
 
 .icon-footer {
   margin-left: 16px;
+  fill:  #fff;
 }
