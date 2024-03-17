@@ -709,6 +709,7 @@ border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-button:hover, .modal-button:focus {
   /* background-color: #404bbf;  */
   border: none;
+  background-color: #404bbf;
 }
 
 .icon-modal {
@@ -731,8 +732,64 @@ margin-bottom: 16px;
 margin-top: 68px;
 }
 
+/* =====FORMA===== */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 360px;
+  align-items: center;
+}
+
+
+
 .data-client{
+  margin-bottom: 8px;
   
 }
 
 
+.name-forma {
+  font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: #8e8f99;
+display: block;
+margin-bottom: 4px;
+display: flex;
+align-items: center;
+
+} 
+
+.icon-input {
+  position: relative; 
+
+}
+
+.input-forma{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-forma:focus {
+  border-color: #4D5AE5;
+}
+.icon-forma{
+  fill: #4d5ae5;
+  padding: 3px 0px;
+width: 18px;
+height: 24px;
+position: absolute;
+left: 16px;
+top: 50%;
+transform:translateY(-50%);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
