@@ -666,8 +666,9 @@ ul {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
 }
+
 .window {
   position: absolute;
   top: 50%;
@@ -681,6 +682,7 @@ ul {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* padding: 72px 24px 24px 24px; */
 }
 .modal-button {
   position: absolute;
@@ -703,9 +705,9 @@ ul {
 
 .modal-button:hover,
 .modal-button:focus {
-  /* background-color: #404bbf;  */
   border: none;
   background-color: #404bbf;
+  fill: #ffffff;
 }
 
 .icon-modal {
@@ -836,6 +838,10 @@ ul {
 height: 16px; */
 }
 
+/* .visually-hidden {
+  overflow: hidden;
+} */
+
 .checkbox:checked + .privacy-policy {
   background-color: #404bbf;
   border: none;
@@ -868,10 +874,11 @@ height: 16px; */
   display: inline-flex;
   justify-content: center;
   fill: transparent;
+  align-items: center;
 }
 
-.svg-chekbox {
-}
+/* .svg-chekbox {
+} */
 
 .botton-modal-forma {
   border-radius: 4px;
