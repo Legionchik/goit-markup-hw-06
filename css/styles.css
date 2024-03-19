@@ -889,7 +889,7 @@ height: 16px; */
   color: #4d5ae5;
 }
 
-.quiz-form input[type="checkbox"]:checked + .privacy-policy {
+.quiz-form input[type="checkbox"]:checked {
   background-color: 404bbf;
   order: none;
   fill: #f4f4fd;
