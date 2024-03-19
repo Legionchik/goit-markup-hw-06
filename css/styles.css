@@ -885,12 +885,15 @@ height: 16px; */
   align-items: center;
 }
 
-.link-privacy-policy {
+.visually-hidden .link-privacy-policy {
   color: #4d5ae5;
 }
 
-/* .svg-chekbox {
-} */
+.quiz-form input[type="checkbox"]:checked + .privacy-policy {
+  background-color: 404bbf;
+  order: none;
+  fill: #f4f4fd;
+}
 
 .botton-modal-forma {
   border-radius: 4px;
