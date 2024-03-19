@@ -845,15 +845,12 @@ ul {
 
 .checkbox {
   border-radius: 4px;
+  overflow: hidden;
   /* width: 360px;
 height: 16px; */
 }
 
-/* .visually-hidden {
-  overflow: hidden;
-} */
-
-.checkbox:checked + .privacy-policy {
+.checkbox:checked .privacy-policy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -886,6 +883,10 @@ height: 16px; */
   justify-content: center;
   fill: transparent;
   align-items: center;
+}
+
+.link-privacy-policy {
+  color: #4d5ae5;
 }
 
 /* .svg-chekbox {
