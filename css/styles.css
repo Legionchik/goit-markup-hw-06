@@ -747,7 +747,7 @@ ul {
 .form {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   max-width: 360px;
   /* margin-right: 24px;
   margin-left: 24px; */
@@ -886,6 +886,9 @@ height: 16px; */
   align-items: center;
 }
 
+.link-privacy-policy {
+  color: #404bbf;
+}
 .visually-hidden .link-privacy-policy {
   color: #4d5ae5;
 }
