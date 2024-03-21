@@ -898,7 +898,7 @@ height: 16px; */
 }
 
 .link-privacy-policy {
-  color: #404bbf;
+  color: #4d5ae5;
 }
 .visually-hidden .link-privacy-policy {
   color: #4d5ae5;
@@ -933,7 +933,7 @@ height: 16px; */
 
 .modal-check-icon {
   position: absolute;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
