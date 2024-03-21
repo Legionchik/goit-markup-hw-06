@@ -900,9 +900,10 @@ height: 16px; */
 .link-privacy-policy {
   color: #4d5ae5;
 }
-.visually-hidden .link-privacy-policy {
+
+/* .visually-hidden .link-privacy-policy {
   color: #4d5ae5;
-}
+} */
 
 .checkbox:checked + .privaci-accept span {
   color: #4d5ae5;
