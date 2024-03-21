@@ -431,9 +431,10 @@
         <!-- =====forma===== -->
         <div class="forma">
           <p class="subscribe">Subscribe</p>
-          <form class="form-footer" action="">
+          <form class="form">
             <label for="label-footer" class="label-footer">
               <input
+                id="label-footer"
                 class="input-footer"
                 name="email"
                 type="email"
@@ -467,14 +468,14 @@
         </p>
 
         <!-- =====FORMA===== -->
-        <form action="" class="form">
+        <form class="form">
           <div class="data-client">
             <!-- =====Name===== -->
-            <label class="name-forma" for="user-name" name="Name">Name </label>
+            <label class="name-forma" for="user-name">Name </label>
             <div class="icon-input">
               <input
                 id="user-name"
-                name="user-name"
+                name="user-input-name"
                 class="input-forma"
                 type="text"
                 placeholder="Name"
@@ -487,7 +488,7 @@
 
           <div class="data-client">
             <!-- =====Phone===== -->
-            <label class="name-forma" for="phone" name="Phone">Phone </label>
+            <label class="name-forma" for="phone">Phone </label>
             <div class="icon-input">
               <input
                 id="phone"
@@ -504,7 +505,7 @@
 
           <div class="data-client">
             <!-- =====Email===== -->
-            <label class="name-forma" for="email" name="Email">Email </label>
+            <label class="name-forma" for="email">Email </label>
             <div class="icon-input">
               <input
                 id="email"
@@ -521,9 +522,7 @@
 
           <!-- =====client-coment===== -->
           <div class="client-coment">
-            <label class="name-forma" for="user-comment" name="Name"
-              >Comment
-            </label>
+            <label class="name-forma" for="user-comment">Comment </label>
             <textarea
               class="coments"
               name="user-comment"
@@ -542,7 +541,6 @@
               type="checkbox"
               value="true"
               name="user-privacy"
-              placeholder="Name"
             />
 
             <label for="user-privacy" class="privaci-accept">
