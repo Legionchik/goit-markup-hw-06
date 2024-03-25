@@ -27,12 +27,14 @@
       <div class="container style-header">
         <nav class="menu">
           <a href="./index.html" class="logo">
-            Web <span class="studio">Studio</span>
+            Web<span class="studio">Studio</span>
           </a>
           <ul class="menu-elements">
-            <li><a href="./index.html" class="menu-nav-index"> Studio</a></li>
-            <li><a href="" class="menu-nav-index"> Portfolio</a></li>
-            <li><a href="" class="menu-nav-index"> Contacts</a></li>
+            <li>
+              <a href="./index.html" class="menu-nav-index carent">Studio</a>
+            </li>
+            <li><a href="" class="menu-nav-index">Portfolio</a></li>
+            <li><a href="" class="menu-nav-index">Contacts</a></li>
           </ul>
         </nav>
         <address class="contacts">
@@ -428,27 +430,28 @@
           </ul>
         </div>
 
-        <!-- =====forma===== -->
-        <div class="forma">
-          <p class="subscribe">Subscribe</p>
-          <form class="form">
-            <label for="label-footer" class="label-footer">
-              <input
-                id="label-footer"
-                class="input-footer"
-                name="email"
-                type="email"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="botton-footer" type="submit">
-              Subscribe
-              <svg class="icon-footer" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-          <!-- =====forma===== -->
+        <!-- =====footer-forma===== -->
+        <div class="forma-footer">
+          <div>
+            <p class="subscribe">Subscribe</p>
+            <form class="form-for-footer-input">
+              <label for="label-footer" class="label-footer">
+                <input
+                  id="label-footer"
+                  class="input-footer"
+                  name="email"
+                  type="email"
+                  placeholder="E-mail"
+                />
+              </label>
+            </form>
+          </div>
+          <button class="botton-footer" type="submit">
+            Subscribe
+            <svg class="icon-footer" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
@@ -471,7 +474,7 @@
         <form class="form">
           <div class="data-client">
             <!-- =====Name===== -->
-            <label class="name-forma" for="user-name">Name </label>
+            <label class="name-forma" for="user-name">Name</label>
             <div class="icon-input">
               <input
                 id="user-name"
@@ -488,7 +491,7 @@
 
           <div class="data-client">
             <!-- =====Phone===== -->
-            <label class="name-forma" for="phone">Phone </label>
+            <label class="name-forma" for="phone">Phone</label>
             <div class="icon-input">
               <input
                 id="phone"
@@ -505,7 +508,7 @@
 
           <div class="data-client">
             <!-- =====Email===== -->
-            <label class="name-forma" for="email">Email </label>
+            <label class="name-forma" for="email">Email</label>
             <div class="icon-input">
               <input
                 id="email"
@@ -522,7 +525,7 @@
 
           <!-- =====client-coment===== -->
           <div class="client-coment">
-            <label class="name-forma" for="user-comment">Comment </label>
+            <label class="name-forma" for="user-comment">Comment</label>
             <textarea
               class="coments"
               name="user-comment"
@@ -550,12 +553,16 @@
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="link-privacy-policy" href="">Privacy Policy</a>
+              I accept the terms and conditions of the&nbsp;<a
+                class="link-privacy-policy"
+                href=""
+                >Privacy Policy</a
+              >
+              <button class="botton-modal-forma" type="button">Send</button>
             </label>
           </div>
 
-          <button class="botton-modal-forma" type="button">Send</button>
+          <!-- <button class="botton-modal-forma" type="button">Send</button> -->
         </form>
       </div>
     </div>
