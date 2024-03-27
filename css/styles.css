@@ -593,9 +593,6 @@ ul {
   margin-bottom: 16px;
 }
 
-.forma-footer {
-  display: flex;
-}
 .form-for-footer-input {
   display: flex;
   gap: 24px;
@@ -638,7 +635,7 @@ ul {
   width: 165px;
   height: 40px;
   background: #4d5ae5;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   cursor: pointer;
   border: none;
 }
@@ -668,7 +665,7 @@ ul {
 }
 
 .is-open {
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
   pointer-events: auto;
 }
